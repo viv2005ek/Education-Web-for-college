@@ -135,6 +135,14 @@ header #time {
   background-color: lightgray;
   border-color: transparent;
 }
+.quickFolder div a{
+  text-decoration: none;
+  color:black;
+}
+.quickFolder div button:hover a{
+  text-decoration: none;
+  color:white;
+}
 
 .quickFolder div button:hover{
   background-color: black;
