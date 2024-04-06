@@ -145,7 +145,7 @@ header #time {
 }
 
 .quickFolder div button:hover{
-  background-color: black;
+  background-color: #048181;
   color: white;
   cursor: pointer;
 }
@@ -180,7 +180,7 @@ header #time {
 .profile button{
   color:white;
   width:80%;
-  background-color: purple;
+  background-color: #176BB7;
  height: 40px;
   border-radius: 10px;
   margin-top: 20px;
@@ -200,7 +200,7 @@ header #time {
   align-items: center;
 }
 .navPage button:hover{
-    background-color: purple;
+    background-color: #176BB7;
   color:white;
 }
 
