@@ -1,3 +1,4 @@
+
 ### All HTML files are out of a folder name "IEEE-hackathon" otherfiles each and every file and folder is in the IEEE-hackathon
 
 
@@ -34,3 +35,4 @@ The calendar feature allows users to:
 
 - [Font Awesome](https://fontawesome.com/) for the icon library used in this project.
 - Calendar feature inspired by [FullCalendar](https://fullcalendar.io/).
+
