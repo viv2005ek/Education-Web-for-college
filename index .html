@@ -1,118 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EDUCA</title>
-  <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="../css/loader.css">
-  <link rel="icon" href="../IEEE-hackathon/images/lcon.png">
-  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDUCA</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="icon" href="images\icon.jpg">
+
 </head>
+
 <body>
 
-  <div class="forLoaderBody">
-  <div class="banter-loader">
-    <div class="banter-loader__box"></div>
-    <div class="banter-loader__box"></div>
-    <div class="banter-loader__box"></div>
-    <div class="banter-loader__box"></div>
-    <div class="banter-loader__box"></div>
-    <div class="banter-loader__box"></div>
-    <div class="banter-loader__box"></div>
-    <div class="banter-loader__box"></div>
-    <div class="banter-loader__box"></div>
-  </div>
+    <div class="forLoaderBody">
+        <div class="banter-loader">
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+            <div class="banter-loader__box"></div>
+        </div>
     </div>
-  
-<div class="side_bar"> 
-<div class="profile">
-  <img src="../images/pfp_pic.png" alt=""> 
-  <h3>ShadowSquad</h3>
-  <p>Student</p>
-  <button>View Profile</button>
-</div>
-<div class="navPage">
-  <button><i class="fa-solid fa-house"></i> Home</button>
-  <button><i class="fa-brands fa-google-scholar"></i> Courses</button>
-  <button><i class="fa-solid fa-clipboard-user"></i> 
+
+    <div class="side_bar">
+        <div class="profile">
+            <img src="images/pfp_pic.png" alt="">
+            <h3>ShadowSquad</h3>
+            <p>Student</p>
+            <button>View Profile</button>
+        </div>
+        <div class="navPage">
+            <button><i class="fa-solid fa-house"></i> Home</button>
+            <button><i class="fa-brands fa-google-scholar"></i> Courses</button>
+            <button><i class="fa-solid fa-clipboard-user"></i> 
 Attendance</button>
-  <button><i class="fa-solid fa-location-dot"></i> Navigation</button>
-  <button><i class="fa-regular fa-id-badge"></i> Contact us</button>
-</div>
-</div>
-  
- <header>
-   <img src="../IEEE-hackathon/images/headerJPG.png" alt="">
-   
-   <input type="search" list="bookmarks" placeholder="Search" id="" oninput="">
-    <datalist name="bookmarks" id="bookmarks">
+            <button><i class="fa-solid fa-location-dot"></i> Navigation</button>
+            <button><i class="fa-regular fa-id-badge"></i> Contact us</button>
+        </div>
+    </div>
+
+    <header>
+        <img src="images/headerJPG.png" alt="">
+
+        <input type="search" list="bookmarks" placeholder="Search" id="" oninput="">
+        <datalist name="bookmarks" id="bookmarks">
       <option value="null">null</option>
        <option value="null1">null</option>
        <option value="null2">null</option>
       
     </datalist>
-   <div >
-     <button onclick="scrollbarVisibility()"><i class="fa-solid fa-bars"></i></button>
-     <button id="calander" onclick="calanderData('calander.html')">
+        <div>
+            <button onclick="scrollbarVisibility()"><i class="fa-solid fa-bars"></i></button>
+            <button id="calander" onclick="calanderData('calander.html')">
        <i class="fa-regular fa-calendar-days"></i>
      </button>
 
-     
-     </div>
 
-   <div class="clock">                  <!--clock--> 
-     <div id="time">
+        </div>
+
+        <div class="clock">
+            <!--clock-->
+            <div id="time">
+            </div>
+
+    </header>
+
+
+    <div class="quickOption">
+
+        <h1>Quick Options</h1>
+        <br>
+        <hr>
+
+        <div class="quickFolder">
+
+            <div>
+                <h2>Courses</h2>
+                <hr>
+                <button><a href="https://en.wikipedia.org/wiki/Bachelor_of_Technology" target="_blank">B.tech</a></button>
+                <button><a href="https://en.wikipedia.org/wiki/Bachelor_of_Business_Administration" target="_blank">BBA</a></button>
+                <button><a href="https://en.wikipedia.org/?title=Bachelor_of_Computer_Applications&redirect=no"  target="_blank">BCA</a></button>
+                <button><a href="https://en.wikipedia.org/wiki/Fashion_design" target="_blank">Fashion designing</a></button>
+                <button><a href="https://en.wikipedia.org/wiki/Psychology" target="_blank">Psychology</a></button>
+
+            </div>
+            <div>
+                <h2>Top Clubs</h2>
+                <hr>
+                <button><a href="https://www.instagram.com/ieee_csmuj?igsh=MXZud3g4dzR0YWw5cg==" target="_blank">IEEE</a></button>
+                <button><a href="https://www.instagram.com/litmusmuj?igsh=c2llbGprczdlbTF5" target="_blank">Litmus</a></button>
+                <button><a href="https://www.instagram.com/randomizemuj?igsh=ZTFhenJ5Y25waWt2" target="_blank">Randomize()</a></button>
+                <button><a href="https://www.instagram.com/cactus.muj?igsh=MXU0Njh5enB3aGJuYw==" target="_blank">Cactus</a></button>
+                <button><a href="https://www.instagram.com/cosmosclub_muj?igsh=MWx5MHNicTczMnRxeA==" target="_blank">Cosmos</a></button>
+                <button><a href="https://www.instagram.com/csc_muj/?igsh=b3p4cG93bnFqd3J5" target="_blank">Cyber-Space</a></button>
+            </div>
+            <div>
+                <h2>Navigation</h2>
+                <hr>
+                <button><a href="https://earth.app.goo.gl/?apn=com.google.earth&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4026.84215067,75.56559091,477.96241891a,0d,90y,342.91489704h,65.99221792t,0r%2fdata%3dIjAKLEFGMVFpcE9ZRHY5elh5bGdhUUJzR29mRVY1a0F2T0xrR0k1SlhpRFlzV1pSEAU" target="_blank">Centre</a></button>
+                <button><a href="https://earth.app.goo.gl/?apn=com.google.earth&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4026.84275579,75.5654432,477.95895958a,0d,60y,342.91489704h,85t,0r%2fdata%3dIjAKLEFGMVFpcFBqWlloRkJCZkhlLWNOaHpnblZqbm8tM1dNcm5fa2JQR3BJUGtqEAU" target="_blank">Grand stairs</a></button>
+                <button><a href="https://earth.app.goo.gl/?apn=com.google.earth&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4026.84364213,75.56538,420.53681286a,0d,60y,278.33041203h,78.19138407t,0r%2fdata%3dIjAKLEFGMVFpcE5TS05Hc2Y3Z0RiZHROekFXU0dEX3l6T2hJWVB1cWZBb3JvQ2ZJEAU" target="_blank">Fashion designing block</a></button>
+                <button><a href="https://earth.app.goo.gl/?apn=com.google.earth&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4026.84432026,75.56499267,418.10669251a,0d,56.65215822y,169.89723056h,72.98807155t,0r%2fdata%3dIjAKLEFGMVFpcE45NzM0MGVyZnp2elBKNzROYkFpWWQ2Y0gzU2FHSnVUVnZ6c2puEAU" target="_blank">Ab2</a></button>
+                <button><a href="https://earth.app.goo.gl/?apn=com.google.earth&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4026.84412888,75.56528991,418.34498262a,0d,60y,93.80924741h,95.35451945t,0r%2fdata%3dIjAKLEFGMVFpcFB4UUdhTVN5N0RuU0JGMFRjQ3lSTUhqN0lKc2QycUpGLTFJbzBsEAU" target="_blank">Administrative block</a></button>
+                <button><a href="https://earth.app.goo.gl/?apn=com.google.earth&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4026.844099,75.56513892,418.39643541a,0d,60y,285.1080393h,74.52889626t,0r%2fdata%3dIjAKLEFGMVFpcE5zNk96SUVXai1La3RRclFvWXBHQTcxN21ZYjJldm5ZQlo1UGRYEAU" target="_blank">Ab1</a></button>
+
+            </div>
+        </div>
     </div>
 
- </header>
 
 
-  <div class="quickOption">
-    
-  <h1>Quick Options</h1>
-    <br> <hr> 
-
-   <div class="quickFolder">
-    
-     <div> <h2>Courses</h2> <hr>
-       <button><a href="https://en.wikipedia.org/wiki/Bachelor_of_Technology" target="_blank">B.tech</a></button>
-        <button><a href="https://en.wikipedia.org/wiki/Bachelor_of_Business_Administration" target="_blank">BBA</a></button>
-        <button><a href="https://en.wikipedia.org/?title=Bachelor_of_Computer_Applications&redirect=no"  target="_blank">BCA</a></button>
-        <button><a href="https://en.wikipedia.org/wiki/Fashion_design" target="_blank">Fashion designing</a></button>
-        <button><a href="https://en.wikipedia.org/wiki/Psychology" target="_blank">Psychology</a></button>
-
-     </div>
-     <div>
-       <h2>Top Clubs</h2>  <hr>
-       <button><a href="https://www.instagram.com/ieee_csmuj?igsh=MXZud3g4dzR0YWw5cg==" target="_blank">IEEE</a></button>
-       <button><a href="https://www.instagram.com/litmusmuj?igsh=c2llbGprczdlbTF5" target="_blank">Litmus</a></button>
-       <button><a href="https://www.instagram.com/randomizemuj?igsh=ZTFhenJ5Y25waWt2" target="_blank">Randomize()</a></button>
-       <button><a href="https://www.instagram.com/cactus.muj?igsh=MXU0Njh5enB3aGJuYw==" target="_blank">Cactus</a></button>
-       <button><a href="https://www.instagram.com/cosmosclub_muj?igsh=MWx5MHNicTczMnRxeA==" target="_blank">Cosmos</a></button>
-       <button><a href="https://www.instagram.com/csc_muj/?igsh=b3p4cG93bnFqd3J5" target="_blank">Cyber-Space</a></button>
-     </div>
-     <div>
-       <h2>Navigation</h2>
-       <hr>
-       <button><a href="https://earth.app.goo.gl/?apn=com.google.earth&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4026.84215067,75.56559091,477.96241891a,0d,90y,342.91489704h,65.99221792t,0r%2fdata%3dIjAKLEFGMVFpcE9ZRHY5elh5bGdhUUJzR29mRVY1a0F2T0xrR0k1SlhpRFlzV1pSEAU" target="_blank">Centre</a></button>
-        <button><a href="https://earth.app.goo.gl/?apn=com.google.earth&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4026.84275579,75.5654432,477.95895958a,0d,60y,342.91489704h,85t,0r%2fdata%3dIjAKLEFGMVFpcFBqWlloRkJCZkhlLWNOaHpnblZqbm8tM1dNcm5fa2JQR3BJUGtqEAU" target="_blank">Grand stairs</a></button>
-        <button><a href="https://earth.app.goo.gl/?apn=com.google.earth&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4026.84364213,75.56538,420.53681286a,0d,60y,278.33041203h,78.19138407t,0r%2fdata%3dIjAKLEFGMVFpcE5TS05Hc2Y3Z0RiZHROekFXU0dEX3l6T2hJWVB1cWZBb3JvQ2ZJEAU" target="_blank">Fashion designing block</a></button>
-        <button><a href="https://earth.app.goo.gl/?apn=com.google.earth&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4026.84432026,75.56499267,418.10669251a,0d,56.65215822y,169.89723056h,72.98807155t,0r%2fdata%3dIjAKLEFGMVFpcE45NzM0MGVyZnp2elBKNzROYkFpWWQ2Y0gzU2FHSnVUVnZ6c2puEAU" target="_blank">Ab2</a></button>
-        <button><a href="https://earth.app.goo.gl/?apn=com.google.earth&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4026.84412888,75.56528991,418.34498262a,0d,60y,93.80924741h,95.35451945t,0r%2fdata%3dIjAKLEFGMVFpcFB4UUdhTVN5N0RuU0JGMFRjQ3lSTUhqN0lKc2QycUpGLTFJbzBsEAU" target="_blank">Administrative block</a></button>
-        <button><a href="https://earth.app.goo.gl/?apn=com.google.earth&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4026.844099,75.56513892,418.39643541a,0d,60y,285.1080393h,74.52889626t,0r%2fdata%3dIjAKLEFGMVFpcE5zNk96SUVXai1La3RRclFvWXBHQTcxN21ZYjJldm5ZQlo1UGRYEAU" target="_blank">Ab1</a></button>
-
-     </div>
-   </div>
-  </div>
-
-  
 
 
-  
-  <script src="../script/script.js"> </script>
+    <script src="script/script.js">
+    </script>
 </body>
-</html>
 
+</html>
